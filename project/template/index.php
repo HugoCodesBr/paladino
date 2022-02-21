@@ -18,9 +18,11 @@
     <title>Paladino</title>
 </head>
 <body>
-    <h2>Esse é um projeto inicial</h2>
-
-    <img src="./assets/images/teste.jpg" alt="">
+    <div class="container">
+        <h2>Esse é um projeto inicial</h2>
+    
+        <img src="./assets/images/teste.jpg" alt="">
+    </div>
 
     <script src="./assets/js/app.min.js"></script>
 </body>
