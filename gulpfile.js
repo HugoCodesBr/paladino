@@ -38,6 +38,7 @@ function jsCompile(){
         .pipe(uglify())
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('dist/assets/js'))
+        .pipe(browserSync.stream())
 }
 
 function imageMin(){

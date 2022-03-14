@@ -3,3 +3,13 @@
 //     src: url(./assets/fonts/glacialindifference-bold-webfont.woff2);
 //     font-weight: bold;
 // }
+
+
+// ff = font-family
+
+$ffprimary: 'Raleway', sans-serif;
+$ffsecondary: 'Roboto Mono', monospace;
+
+* {
+    font-family: $ffprimary;
+}
