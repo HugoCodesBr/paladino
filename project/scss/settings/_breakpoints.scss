@@ -19,3 +19,7 @@ $breakpoints: (
             + "Breakpoints que existem são: #{map-keys($breakpoints)}.";
     }
 }
+
+// exemplo:
+
+// @include breakpoint(small){}

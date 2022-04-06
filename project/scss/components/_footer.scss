@@ -1,0 +1,16 @@
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: max-content;
+
+  p{
+    margin: 0;
+  }
+
+  .footer__links{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+  }
+}
