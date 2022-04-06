@@ -4,12 +4,17 @@
 //     font-weight: bold;
 // }
 
-
 // ff = font-family
 
-$ffprimary: 'Raleway', sans-serif;
-$ffsecondary: 'Roboto Mono', monospace;
+$ffprimary: 'Spartan', sans-serif;
+$ffsecondary: 'Lato', sans-serif;
 
 * {
-    font-family: $ffprimary;
+  font-family: $ffprimary;
+}
+
+.font-2 {
+  * {
+    font-family: $ffsecondary;
+  }
 }
